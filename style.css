@@ -17,14 +17,12 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    width: 348px;
     background-color: #999999;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    width: 869px;
     background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
 }
@@ -36,15 +34,11 @@
 .profile {
     width: 100%;
     border-bottom: 2px solid #eeeeee;
-    text-align: center;
-    font-family: 'Roboto';
-    font-style: normal;
 }
 
 .profile .profile-image {
     width: 100%;
-    border-radius: 50%;
-    border: 8px solid #1B2631;
+    border-radius: 100%;
 }
 
 .name {
