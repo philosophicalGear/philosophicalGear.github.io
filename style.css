@@ -17,12 +17,14 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
+    width: 348px;
     background-color: #999999;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
+    width: 869px;
     background-color: #424a50;
     border-radius: 0px 60px 0px 0px;
 }
@@ -34,12 +36,15 @@
 .profile {
     width: 100%;
     border-bottom: 2px solid #eeeeee;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1b2631;
+    border: 8px solid #1B2631;
 }
 
 .name {
@@ -101,4 +106,39 @@
 .about-me-contents {
     font-size: 18px;
     color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
